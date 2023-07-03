@@ -35,8 +35,11 @@ Arduino_Guitar_Pedal.ino is incomplete code for six effect selection with rotary
 (See "Source" section)
 
 # See Also
-
 Circuit Schematic Diagram (without non-functioning 6-way rotary selector)
+![Chorus Pedal Circuit](https://github.com/forart/387guitarpedal/assets/171307/c3c4eab1-6f6b-4c0d-b48c-ecc4e7498cb3)
+
 Picture
+![Photo on 5-9-13 at 2 05 PM](https://github.com/forart/387guitarpedal/assets/171307/14ca0b21-3be6-43bd-9d2a-480d7f79c8e6)
+
 Demo video
-(See "Downloads" section)
+
