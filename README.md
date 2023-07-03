@@ -20,23 +20,23 @@ Two potentiometers use analog inputs and AREF on the Arduino to control paramete
 
 # Limitations/Future Work
 
-    My soldering skills or lack thereof - I had a horrible time trying to solder the jacks, and often when I plugged them in, my soldering popped off! I need to find a way to get the connections more permanently fixed. I think this should help clean up the signal as well. Also I need to redo the soldering on the power connector for the arduino.
-    Coding for the multiple effects selection - Once the selector works, I can then move on to programming my own effects.
-    Casing - I have a good sized metal box that my wallet came in that I would like to house the pedal. I just need a drill press or something to make the holes.
-    Stomp switch - I just got the DPDT stomp switch to replace the toggle in the mail. It looks like I need a small PCB to mount it though.
-    ADC?RAM? - If I decide to keep spiraling out, I might try to interface the Arduino with a ADC chip which would most likely sound much better than the Arduino's ADC. With a RAM chip, or some other type of memory, I could try to make a loop pedal or something. I got extra stomp switches so I could add more control.
+My soldering skills or lack thereof - I had a horrible time trying to solder the jacks, and often when I plugged them in, my soldering popped off! I need to find a way to get the connections more permanently fixed. I think this should help clean up the signal as well. Also I need to redo the soldering on the power connector for the arduino.
+Coding for the multiple effects selection - Once the selector works, I can then move on to programming my own effects.
+Casing - I have a good sized metal box that my wallet came in that I would like to house the pedal. I just need a drill press or something to make the holes.
+Stomp switch - I just got the DPDT stomp switch to replace the toggle in the mail. It looks like I need a small PCB to mount it though.
+ADC?RAM? - If I decide to keep spiraling out, I might try to interface the Arduino with a ADC chip which would most likely sound much better than the Arduino's ADC. With a RAM chip, or some other type of memory, I could try to make a loop pedal or something. I got extra stomp switches so I could add more control.
 
 # Code
 
-    Chorus effect code is slightly updated from one left in the Lo-fi pedal's comments
-    sketch_apr30a.ino is the chorus effect code
-    dsp.h, dsp.cpp, timers.h, and timers.cpp are all required files
-    Arduino_Guitar_Pedal.ino is incomplete code for six effect selection with rotary switch. It only outputs the clean signal.
-    (See "Source" section)
+Chorus effect code is slightly updated from one left in the Lo-fi pedal's comments
+sketch_apr30a.ino is the chorus effect code
+dsp.h, dsp.cpp, timers.h, and timers.cpp are all required files
+Arduino_Guitar_Pedal.ino is incomplete code for six effect selection with rotary switch. It only outputs the clean signal.
+(See "Source" section)
 
 # See Also
 
-    Circuit Schematic Diagram (without non-functioning 6-way rotary selector)
-    Picture
-    Demo video
-    (See "Downloads" section)
+Circuit Schematic Diagram (without non-functioning 6-way rotary selector)
+Picture
+Demo video
+(See "Downloads" section)
